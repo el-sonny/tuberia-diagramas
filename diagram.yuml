@@ -1,0 +1,13 @@
+[Escuela]
+[User]
+[Denuncia|*usuario;*escuela;*tipo]
+[Accion|*denuncia;*paso]
+[Tipo denuncia|estados]
+[Paso]
+
+[User]1-1..*[Denuncia]
+[Escuela]1-1..*[Denuncia]
+[Denuncia]1-1[Tipo denuncia]
+[Denuncia]1-0..*[Accion]
+[Accion]1-1[Paso]
+[Tipo denuncia]n-n[Paso]
