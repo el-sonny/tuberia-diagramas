@@ -1,0 +1,17 @@
+{
+	"denuncia" : {
+		"user" : "id()",
+		"denuncia" : "id()",
+		"estado" : 2,
+	},
+	"acciones" : [
+		{
+			"denuncia" : "id()",
+			"paso" : "director" ,
+			"fecha" : "",
+			"input" : {
+				"accionesTomadas" : "lorem ipsum",
+			}
+		}
+	]
+}

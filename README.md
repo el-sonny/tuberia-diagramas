@@ -1,3 +1,9 @@
-[YUML.me](http://yuml.me) compatible diagram
+# Diagrams for tuberia de denuncias MTE
 
-![Tuberia Diagram](http://yuml.me/c2319dee)
+[YUML.me](http://yuml.me) compatible diagrams and sample json;
+
+### Relational Diagram
+
+![Relational diagram](http://yuml.me/fc1719d3)
+
+### Arquitecture Diagrams
