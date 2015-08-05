@@ -1,16 +1,26 @@
 {
 	"denuncia" : {
+		"id" : 1,
 		"user" : "id()",
 		"denuncia" : "id()",
 		"estado" : 2,
 	},
 	"acciones" : [
 		{
-			"denuncia" : "id()",
+			"denuncia" : 1,
 			"paso" : "director" ,
 			"fecha" : "",
 			"input" : {
 				"accionesTomadas" : "lorem ipsum",
+			}
+		},
+		{
+			"denuncia" : 1,
+			"paso" : "telefono",
+			"fecha" : "",
+			"input" : {
+				"folio" : "4E5661",
+				"tipoBullying" : ""
 			}
 		}
 	]
